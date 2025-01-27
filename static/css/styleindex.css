@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+    background-color: #F7C8D5;
+    color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #F29C9B; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilos específicos para el botón 1 (Ejercicio 1) */
+.button1 {
+    background-color: #b19cd9; /* Morado pastel */
+}
+
+.button1:hover {
+    background-color: #9370db; /* Morado más oscuro al pasar el mouse */
+}
+
+/* Estilos específicos para el botón 2 (Ejercicio 2) */
+.button2 {
+    background-color: #77dd77; /* Verde pastel */
+}
+
+.button2:hover {
+    background-color: #5cb85c; /* Verde más oscuro al pasar el mouse */
+}
+
